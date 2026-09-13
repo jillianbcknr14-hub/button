@@ -81,6 +81,8 @@
                     //*** YOUR JAVASCRIPT CODE HERE ***
                     //Assign the fadeOut class to the HTML element with the ninja emoji
 
+                    document.getElementById("ninjaEmoji").classList.add("fadeOut");
+
 
                     '>Click me</button>
             </div>
@@ -91,6 +93,10 @@
                     onclick='
                     //*** YOUR JAVASCRIPT CODE HERE ***
                     //Assign the slide class to the HTML element with the yoga emoji
+
+                    document.getElementById("yogaEmoji").classList.add("slide");
+
+        
 
 
                     '>Click me</button>
@@ -104,6 +110,13 @@
                     //Assign the grow class to the HTML element with the smiley emoji
 
 
+                    document.getElementById("smileyEmoji").classList.add("grow");
+
+                
+                        
+            
+
+
                     '>Click me</button>
             </div>
             <h3>The following exercises will be more intricate.</h3>
@@ -114,44 +127,60 @@
                 //*** YOUR JAVASCRIPT CODE HERE ***
                 //Assign the grow class to the HTML element with the smiley emoji
 
+                document.getElementById("shadeEmoji").classList.add("grow");
+
 
                 '/>
                 <input placeholder="No! Click Over Here!" type="text" onfocus='
                 //*** YOUR JAVASCRIPT CODE HERE ***
                 //Remove the grow class to the HTML element with the smiley emoji
+
+                document.getElementById("shadeEmoji").classList.remove("grow");
                     
                 '/>
             </div>
             <div class="assignmentBlock">
                 <h1>BALANCE</h1>
-                <h1 id="" onmouseenter='
+                <h1 id="redHeart" onmouseenter='
                 //*** YOUR JAVASCRIPT CODE HERE ***
                 //Assign the grow class to this HTML element
+                document.getElementById("redHeart").classList.add("grow");
+
                 //Remove the grow class from the HTML element with the Blue Heart Emoji
 
+                document.getElementById("blueHeart").classList.remove("grow");
+
                 '>❤️</h1>
-                <h1 id="" onmouseleave='
+               <h1 id="blueHeart" onmouseleave='
                 //*** YOUR JAVASCRIPT CODE HERE ***
                 //Assign the grow class to this HTML element
+                document.getElementById("blueHeart").classList.add("grow");
+
                 //Remove the grow class from the HTML element with the Red Heart Emoji
+
+                
 
                 '>💙</h1>
             </div>
 
             <div class="assignmentBlock">
                 <h1>Keys Down</h1>
-                <h1 id="" class="">🔒</h1>
+                <h1 id="lockedEmoji">🔒</h1>
                 <input type="text" onkeydown='
                 //*** YOUR JAVASCRIPT CODE HERE ***
                 //Assign the bounceDown class to the HTML element with the Locked Emoji
+
+                document.getElementById("lockedEmoji").classList.add("bounceDown");
 
                 '/>
             </div>
             <div class="assignmentBlock">
                 <h1>Keys Up</h1>
-                <h1 id="" class="">🔐</h1>
+                <h1 id="lockedKeyEmoji">🔐</h1>
                 <input type="text" onkeyup='
                 //*** YOUR JAVASCRIPT CODE HERE ***
+
+                 document.getElementById("lockedKeyEmoji").classList.add("bounce");
                 //Assign the bounce class to the HTML element with the Locked with Key Emoji
 
                 '/>
@@ -164,11 +193,16 @@
                     //*** YOUR JAVASCRIPT CODE HERE ***
                     //Assign the fadeOut class to the HTML element with the ninja emoji
 
+                    document.getElementById("ninjaEmoji2").classList.add("fadeOut");
+
+
                     '>Attack</button>
                     <button
                     onclick='
                     //*** YOUR JAVASCRIPT CODE HERE ***
                     //Remove the fadeOut class to the HTML element with the ninja emoji
+
+                   document.getElementById("ninjaEmoji2").classList.remove("fadeOut");
 
                     '>Dodge</button>
             </div>
